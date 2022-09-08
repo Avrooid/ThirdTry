@@ -1,6 +1,4 @@
-import java.io.Console;
-
-public class Main {
+public class Lesson1 {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         System.out.println("НУ ВЫ И ДУРАЧКИ!");
@@ -49,6 +47,11 @@ public class Main {
         {
             System.out.println("while b = " + b--);
         }
+
+        Lesson2 lesson2 = new Lesson2(38, "Boris");
+        Lesson21 lesson21 = new Lesson21(lesson2.age, lesson2.name, "Russian");
+        lesson21.setLanguage("English");
+        lesson21.work();
 
         }
     }
